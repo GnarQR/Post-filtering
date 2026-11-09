@@ -1,0 +1,30 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Experiment output
+results/
+
+# RAG 자료 및 원본 문서 전체 제외
+/RAG 자료/
+rag_data/
+rag_data/**/*.pdf
+rag_data/**/*.xlsx
+rag_data/**/*.csv
+rag_data/**/*.json
+rag_data/**/*.jsonl
+
+# 혹시 모를 대용량/임시 파일들
+*.pdf
+*.xlsx
+*.csv
+__pycache__/
+.venv/
+venv/
